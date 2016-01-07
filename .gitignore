@@ -1,15 +1,5 @@
 
-# Created by https://www.gitignore.io/api/linux,windows,osx,vim,pycharm,python
-
-### Linux ###
-*~
-
-# KDE directory preferences
-.directory
-
-# Linux trash folder which might appear on any partition or disk
-.Trash-*
-
+# Created by https://www.gitignore.io/api/windows,linux,osx,vim,pycharm,python
 
 ### Windows ###
 # Windows image file caches
@@ -30,6 +20,16 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+
+
+### Linux ###
+*~
+
+# KDE directory preferences
+.directory
+
+# Linux trash folder which might appear on any partition or disk
+.Trash-*
 
 
 ### OSX ###
