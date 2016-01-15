@@ -16,12 +16,15 @@ class Mario:
 
         self.current = self.normal
 
-        self.x = 2.0
-        self.y = 8.0
+        self.x = 2
+        self.y = 8
         self.width = self.current.width
         self.height = self.current.height
 
         self.direction = 1  # 0: left, 1: right
+
+        self.jumping = False
+        self.moving = False
 
     def render(self):
         """

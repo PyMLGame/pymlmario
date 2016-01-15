@@ -52,12 +52,12 @@ class Map:
             else:
                 return NONBLOCKING
 
-        colmat = {}
+        colmat = []
         for x in range(self.width):
-            row = {}
+            row = []
             for y in range(self.height):
-                row[y] = translate(self._colmap[x, y])
-            colmat[x] = row
+                row.append(translate(self._colmap[x, y]))
+            colmat.append(row)
 
         return colmat
 
